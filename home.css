@@ -1,4 +1,3 @@
-/* ===== HERO SECTION ===== */
 .hero-section {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/pics/img9.jpg') center/cover no-repeat;
     color: var(--white);
@@ -7,7 +6,7 @@
     position: relative;
 }
 
-/* ===== FEATURE BOXES ===== */
+
 .feature-box {
     padding: 2rem 1.5rem;
     text-align: center;
@@ -38,7 +37,7 @@
     color: var(--text-light);
 }
 
-/* ===== TESTIMONIALS ===== */
+
 .testimonial-card {
     background-color: var(--white);
     padding: 2rem;
@@ -71,7 +70,7 @@
     font-style: italic;
 }
 
-/* ===== MEMBERSHIP CARDS ===== */
+
 .membership-card {
     border: 2px solid transparent;
     transition: var(--transition);
@@ -110,7 +109,7 @@
     font-weight: bold;
 }
 
-/* ===== HOME PAGE RESPONSIVE ===== */
+
 @media (max-width: 768px) {
     .hero-section {
         padding: 100px 0;
