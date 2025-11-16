@@ -1,0 +1,129 @@
+/* ===== HERO SECTION ===== */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/pics/img9.jpg') center/cover no-repeat;
+    color: var(--white);
+    padding: 150px 0;
+    text-align: center;
+    position: relative;
+}
+
+/* ===== FEATURE BOXES ===== */
+.feature-box {
+    padding: 2rem 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    transition: var(--transition);
+    margin-bottom: 2rem;
+    background: var(--white);
+    box-shadow: var(--shadow);
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.feature-icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.feature-box h3 {
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.feature-box p {
+    color: var(--text-light);
+}
+
+/* ===== TESTIMONIALS ===== */
+.testimonial-card {
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+}
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid var(--primary-color);
+}
+
+.testimonial-card h4 {
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+}
+
+.testimonial-card p {
+    color: var(--text-light);
+    font-style: italic;
+}
+
+/* ===== MEMBERSHIP CARDS ===== */
+.membership-card {
+    border: 2px solid transparent;
+    transition: var(--transition);
+}
+
+.membership-card:hover {
+    border-color: var(--primary-color);
+}
+
+.membership-card .card-header {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.membership-card .card-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.membership-card ul {
+    text-align: left;
+}
+
+.membership-card ul li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.membership-card ul li:before {
+    content: '✓';
+    color: var(--primary-color);
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+/* ===== HOME PAGE RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 100px 0;
+    }
+
+    .feature-box,
+    .testimonial-card {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        padding: 80px 0;
+    }
+}
