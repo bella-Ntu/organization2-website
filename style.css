@@ -10,7 +10,7 @@
     --transition: all 0.3s ease;
 }
 
-/* ===== BASE STYLES ===== */
+
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +23,7 @@ body {
     color: var(--text-color);
 }
 
-/* ===== TYPOGRAPHY ===== */
+
 h1,
 h2,
 h3,
@@ -45,7 +45,7 @@ h6 {
     font-weight: 300;
 }
 
-/* ===== NAVIGATION ===== */
+
 .navbar {
     padding: 1rem 0;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -68,7 +68,7 @@ h6 {
     color: var(--primary-color) !important;
 }
 
-/* ===== BUTTONS ===== */
+
 .btn-primary {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
@@ -93,7 +93,7 @@ h6 {
     border-color: var(--primary-color);
 }
 
-/* ===== SECTION STYLES ===== */
+
 .section-title {
     position: relative;
     margin-bottom: 3rem;
@@ -118,7 +118,7 @@ h6 {
     background-color: var(--light-color) !important;
 }
 
-/* ===== CARDS ===== */
+
 .card {
     border: none;
     box-shadow: var(--shadow);
@@ -144,7 +144,7 @@ h6 {
     margin-bottom: 1rem;
 }
 
-/* ===== CONTACT FORM ===== */
+
 .form-control {
     padding: 0.75rem 1rem;
     border: 2px solid #e9ecef;
@@ -163,7 +163,7 @@ h6 {
     color: var(--secondary-color);
 }
 
-/* ===== SOCIAL ICONS ===== */
+
 .social-icons {
     margin-top: 1rem;
 }
@@ -181,7 +181,7 @@ h6 {
     transform: translateY(-3px);
 }
 
-/* ===== FOOTER ===== */
+
 footer {
     background-color: var(--secondary-color);
     color: var(--white);
@@ -231,7 +231,7 @@ footer hr {
     margin: 2rem 0 1rem;
 }
 
-/* ===== UTILITY CLASSES ===== */
+
 .text-primary {
     color: var(--primary-color) !important;
 }
@@ -248,7 +248,7 @@ footer hr {
     box-shadow: var(--shadow) !important;
 }
 
-/* ===== RESPONSIVE DESIGN ===== */
+
 @media (max-width: 768px) {
     .display-4 {
         font-size: 2rem;
@@ -282,7 +282,7 @@ footer hr {
     }
 }
 
-/* ===== ACCESSIBILITY ===== */
+
 .sr-only {
     position: absolute;
     width: 1px;
@@ -295,7 +295,7 @@ footer hr {
     border: 0;
 }
 
-/* Focus styles for better accessibility */
+
 a:focus,
 button:focus,
 .form-control:focus,
